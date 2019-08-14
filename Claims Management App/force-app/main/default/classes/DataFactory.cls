@@ -24,6 +24,12 @@ public class DataFactory {
         return listContactIDs;
     }
     
+    /**
+     * Creates a number of policies according to the passed argument and using the given Contact IDs, and returns the IDs of the records.
+     * @param  policyHolderIDs List<ID>
+     * @param intNumberOfPolicies Integer
+     * @return Returns List<ID> 
+     */
     public static List<ID> createPolicies(List<ID> policyHolderIDs, Integer intNumberOfPolicies){
         List<Policy__c> policiesToInsert = new List<Policy__c>();
         Integer polHolderIDCounter = 0;
@@ -52,6 +58,11 @@ public class DataFactory {
         return policyIDs;
     }
     
+    /**
+     * Creates a single instance of each type of policy coverages for each of the given policies, and returns the IDs of the records.
+     * @param  policyIDs List<ID>
+     * @return Returns List<ID> 
+     */
     public static List<ID> createPolicyCoverages(List<ID> policyIDs){
         List<Schema.PicklistEntry> currentCoverageTypes = Schema.Policy_Coverage__c.Coverage_Type__c.getDescribe().getPickListValues();
         List<Policy_Coverage__c> policyCoverages = new List<Policy_Coverage__c>();
@@ -78,6 +89,11 @@ public class DataFactory {
         return policyCoverageIDs;
     }
     
+    /**
+     * Creates a number of claims for the given Policy IDs, and returns the IDs of the records.
+     * @param  policyIDs List<ID>
+     * @return Returns List<ID> 
+     */
     public static List<ID> createClaims(List<ID> policyIDs){
         List<Policy__c> policies  = [SELECT Id, Policy_Holder__c, (SELECT Id FROM Policy_Coverages__r) FROM Policy__c WHERE Id IN :policyIDs];
         List<Claim__c> claims = new List<Claim__c>();
