@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Policy Type --></label>
+    <name>Policy_Type__c</name>
+    <picklistValues>
+        <masterLabel>Auto</masterLabel>
+        <translation><!-- Auto --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Liability</masterLabel>
+        <translation><!-- General Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Renters</masterLabel>
+        <translation><!-- Renters --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Umbrella</masterLabel>
+        <translation><!-- Umbrella --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

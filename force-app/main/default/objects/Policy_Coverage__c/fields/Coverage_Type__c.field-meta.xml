@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coverage_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Coverage Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Loss of Use</fullName>
+                <default>false</default>
+                <label>Loss of Use</label>
+            </value>
+            <value>
+                <fullName>Medical Payments to Others</fullName>
+                <default>false</default>
+                <label>Medical Payments to Others</label>
+            </value>
+            <value>
+                <fullName>Personal Liability</fullName>
+                <default>false</default>
+                <label>Personal Liability</label>
+            </value>
+            <value>
+                <fullName>Personal Property</fullName>
+                <default>false</default>
+                <label>Personal Property</label>
+            </value>
+            <value>
+                <fullName>Personal Property Replacement Cost</fullName>
+                <default>false</default>
+                <label>Personal Property Replacement Cost</label>
+            </value>
+            <value>
+                <fullName>Scheduled Personal Property</fullName>
+                <default>false</default>
+                <label>Scheduled Personal Property</label>
+            </value>
+            <value>
+                <fullName>Special Computer Coverage</fullName>
+                <default>false</default>
+                <label>Special Computer Coverage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

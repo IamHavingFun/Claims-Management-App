@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Coverage Type --></label>
+    <name>Coverage_Type__c</name>
+    <picklistValues>
+        <masterLabel>Loss of Use</masterLabel>
+        <translation><!-- Loss of Use --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Payments to Others</masterLabel>
+        <translation><!-- Medical Payments to Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal Liability</masterLabel>
+        <translation><!-- Personal Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal Property</masterLabel>
+        <translation><!-- Personal Property --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal Property Replacement Cost</masterLabel>
+        <translation><!-- Personal Property Replacement Cost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduled Personal Property</masterLabel>
+        <translation><!-- Scheduled Personal Property --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special Computer Coverage</masterLabel>
+        <translation><!-- Special Computer Coverage --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
